@@ -1,3 +1,4 @@
+#include<iostream>
 class Solution {
   public:
     string compareNM(int n, int m){
@@ -9,3 +10,8 @@ class Solution {
         return "greater";
     }
 };
+void main()
+{
+  Solution obj;
+  cout<<ob.compareNM(2,4);
+}
