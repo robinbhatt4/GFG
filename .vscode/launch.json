@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "remainder",
+      "request": "launch",
+      "mainClass": "remainder",
+      "projectName": "GFG_a07df791"
+    },
+    {
+      "type": "java",
       "name": "sol",
       "request": "launch",
       "mainClass": "sol",
