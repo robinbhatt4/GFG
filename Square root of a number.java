@@ -1,35 +1,34 @@
 //{ Driver Code Starts
-    #include<bits/stdc++.h>
-    using namespace std;
-    
-      
-    
+    import java.util.Scanner;
+
+    class SquartRoot
+    {
+        public static void main(String args[])
+        {
+            Scanner sc = new Scanner(System.in);
+            int t = sc.nextInt();
+            while(t>0)
+            {
+                long a = sc.nextInt();
+                Solution obj = new Solution();
+                System.out.println(obj.floorSqrt(a));
+            t--;
+            }
+        }
+    }
     // } Driver Code Ends
+    
+    
+    /*You are required to complete
+    this function*/
+    
     // Function to find square root
     // x: element to find square root
-    class Solution{
-      public:
-        long long int floorSqrt(long long int x) 
-        {  
-            return (long)sqrt(x);
-            // Your code goes here   
-        }
-    };
-    
-    //{ Driver Code Starts.
-    
-    int main()
+    class Solution
     {
-        int t;
-        cin>>t;
-        while(t--)
-        {
-            long long n;
-            cin>>n;
-            Solution obj;
-            cout << obj.floorSqrt(n) << endl;
-        }
-        return 0;   
+         long floorSqrt(long x)
+         {return (long)Math.sqrt(x);
+            // Your code here
+         }
     }
     
-    // } Driver Code Ends
