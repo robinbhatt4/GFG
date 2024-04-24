@@ -63,7 +63,7 @@ class Array {
             int a[] = new int[n];
             for (int i = 0; i < n; i++) {
                 a[i] = Integer.parseInt(a1[i]);
-            }
+            }   
             String line2 = br.readLine();
             String[] a2 = line2.trim().split("\\s+");
             int b[] = new int[m];
